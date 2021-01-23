@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 21px;
+}
+input{
+    outline: none;
+    padding: 10px;
+}
+h2{
+    font-size: 25px;
+}
+body{
+    width: 70%;
+    margin-left: 15%;
+}
+button{
+    outline: none;
+    border:1px solid gray;
+}
+button:hover{
+    cursor: pointer;
+}
+.calculator{
+    width: 100%;
+    margin-top: 20px;
+}
+.calculator button{
+    width: 30%;
+    min-height: 70px;
+    background-color: transparent;
+    color: #000;
+    transition: .4s;
+}
+.calculator button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.hesapla{
+    padding: 15px;
+
+    background-color: #fff;
+    color: #000;
+    transition: .4s;
+}
+.hesapla:hover{
+    background-color: #000;
+    color:#fff
+}
+.sonuc{
+    display: none;
+}
